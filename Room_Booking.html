@@ -18,7 +18,7 @@
     </style>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark d-flex">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark d-flex">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> Home</a>
           <a class="navbar-brand" href="#about us"><i class="fa-solid fa-hotel"></i> About Us</a>
@@ -82,10 +82,9 @@
       </div>
       <div class="container">
       <br id="about us">
-    <br>
-    <br>
+      <br>
+      <br>
     <h3 style="text-align: center;">About Us</h3>
-    <br>
     <div class="d-flex justify-content-center w-100 p-3">
     <div class="card mb-3 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
       <div class="row g-0">
@@ -146,13 +145,22 @@
             <div class="card-body">
               <h5 class="card-title"><i class="fa-solid fa-hotel"></i> Deluxe Room</h5>
               <p class="card-text">A deluxe hotel room offers a step above the standard accommodation options, making it an upgraded experience. If you book a deluxe room, you can expect larger and more tastefully designed spaces, often nicer furnishings, premium bedding, a more elaborate seating area or extra features like a tub or fireplace</p>
+              <div>
+                <div class="row">
+                  <div class="col">
               <h6>Price <i class="fa-solid fa-dollar-sign"></i>:</h6>
               <h6>Bed <i class="fa-solid fa-bed"></i>:</h6>
-              <h6>Amenities <i class="fa-solid fa-kitchen-set"></i>:</h6>
+              <h6>Rating:</h6>
               <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
   Book Now
 </button>
+</div>
+<div class="col">
+  <h6>Amenities <i class="fa-solid fa-kitchen-set"></i>:</h6>
+</div>
+</div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -214,13 +222,21 @@
             <div class="card-body">
               <h5 class="card-title"><i class="fa-solid fa-shop"></i> Family Room</h5>
               <p class="card-text">A Family Room is normally refers to a Double bed with an additional sofa bed or camp bed. Hotels with family rooms cater to guests with children, offering spacious accommodations with additional amenities. These rooms often feature separate areas or extra beds, like bunk beds, to accommodate more kids.</p>
+              <div>
+                <div class="row">
+                  <div class="col">
               <h6>Price <i class="fa-solid fa-dollar-sign"></i>:</h6>
-              <h6>Bed <i class="fa-solid fa-bed"></i>:</h6>
-              <h6>Amenities <i class="fa-solid fa-kitchen-set"></i>:</h6>
+              <h6>Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></h6>
               <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
   Book Now
 </button>
+</div>
+<div class="col">
+  <h6>Amenities <i class="fa-solid fa-kitchen-set"></i>:</h6>
+</div>
+</div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -271,13 +287,21 @@
               <h5 class="card-title"><i class="fa-solid fa-landmark"></i> Villa</h5>
               <p class="card-text">
                 Our hotel offers more than just standard rooms and suites for those seeking a unique or elaborate stay. Villas are standalone accommodations with extra square footage, full kitchens, laundry facilities, and other amenities, perfect for large groups or those wanting more space and extended stays.</p>
-              <h6>Price <i class="fa-solid fa-dollar-sign"></i>:</h6>
-              <h6>Bed <i class="fa-solid fa-bed"></i>:</h6>
-              <h6>Amenities <i class="fa-solid fa-kitchen-set"></i>:</h6>
+              <div>
+                <div class="row">
+                  <div class="col">
+                <h6>Price <i class="fa-solid fa-dollar-sign"></i>:</h6>
+              <h6>Rating: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
               <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
   Book Now
 </button>
+</div>
+<div class="col">
+  <h6>Amenities <i class="fa-solid fa-kitchen-set"></i>:</h6>
+</div>
+</div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -330,7 +354,7 @@
       <br>
       <br>
     </div>
-    <footer>
+    <footer class="fixed-bottom">
         <h5>Follow Us On <a href="#"><i class="fa-brands fa-facebook"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a> <a href="#"><i class="fa-brands fa-youtube"></i></a></h5>
         <p>&copy; 2024 Room Booking. All rights reserved.</p>
     </footer>
